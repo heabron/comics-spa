@@ -24,13 +24,17 @@ export default function Home() {
         <button onClick={switchTheme} className="text-red-500">
           thema
         </button>
-        <div className="w-[90vw] max-w-lg flex flex-col items-center justify-center rounded-2xl bg-persianPlum py-4 px-8">
+        <div className="flex w-[90vw] max-w-lg flex-col items-center justify-center rounded-2xl bg-persianPlum py-4 px-8 smed:max-w-none">
           <label className="text-center font-medium">
             Procure por nome, autor, personagem...
           </label>
           <Input />
         </div>
-        <div className='w-[90vw] max-w-lg flex flex-col gap-4 xs:grid xs:grid-cols-2'>
+        <div className="flex w-[90vw] max-w-lg flex-col gap-4 xs:grid xs:grid-cols-2 smed:max-w-none med:grid-cols-3">
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
           <Cards />
           <Cards />
           <Cards />

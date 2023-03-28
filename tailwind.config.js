@@ -28,6 +28,8 @@ module.exports = {
       },
       screens: {
         xs: '450px',
+        smed: '640px',
+        med: '768px',
       },
     },
   },

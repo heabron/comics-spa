@@ -3,7 +3,7 @@ import lagartixa from '@/assets/lagartixa.jpg'
 
 export function Cards() {
   return (
-    <div className="flex flex-col items-center justify-center rounded-2xl bg-persianPlum p-8 gap-2">
+    <div className="flex flex-col items-center justify-center rounded-2xl bg-persianPlum p-8 gap-2 hover:scale-105">
       <Image
         src={lagartixa}
         alt={'meu amor'}
